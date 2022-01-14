@@ -1,3 +1,15 @@
 {
-    "sharedassets": "*.*"
+  "SharedAssets": "*",
+  "Title": "Sbox Worldcraft",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "sbox-worldcraft",
+  "FullIdent": "local.sbox-worldcraft",
+  "Schema": 1,
+  "NeedsUpgrade": false,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "HasCode": true,
+  "CodePath": "code",
+  "RootNamespace": "WorldCraft"
 }
