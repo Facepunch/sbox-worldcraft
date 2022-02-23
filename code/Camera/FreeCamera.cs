@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace WorldCraft
 {
-	public class FreeCamera : Camera
+	public class FreeCamera : CameraMode
 	{
 		Angles LookAngles;
 		Vector3 MoveInput;

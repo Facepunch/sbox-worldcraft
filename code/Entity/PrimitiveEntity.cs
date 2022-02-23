@@ -25,9 +25,7 @@ namespace WorldCraft
 		{
 			if ( Primitive == null ) return;
 
-			Model model = Primitive?.BuildModel();
-
-			SetModel( model );
+			Model = Primitive?.BuildModel();
 			SetupPhysicsFromModel( PhysicsMotionType.Static );
 			EnableAllCollisions = true;
 		}

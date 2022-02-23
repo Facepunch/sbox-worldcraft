@@ -100,13 +100,13 @@ namespace WorldCraft
 
 			if ( Grid.IsValid() )
 			{
-				Grid.Position = trace.EndPos.SnapToGrid( Game.GridSize ) + trace.Normal * 0.05f;
+				Grid.Position = trace.EndPosition.SnapToGrid( Game.GridSize ) + trace.Normal * 0.05f;
 				Grid.Rotation = Rotation.From( 0, 0, 0 );
-				Grid.Origin = trace.EndPos.SnapToGrid( Game.GridSize );
+				Grid.Origin = trace.EndPosition.SnapToGrid( Game.GridSize );
 				Grid.Normal = trace.Normal;
 			}
 
-			Start = trace.EndPos.SnapToGrid( Game.GridSize );
+			Start = trace.EndPosition.SnapToGrid( Game.GridSize );
 			End = Start;
 
 			DebugOverlay.Sphere( Start, 2, Color.Blue );

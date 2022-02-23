@@ -17,7 +17,7 @@ namespace WorldCraft
 		{
 			Position = Input.Position;
 			Rotation = Input.Rotation;
-			EyeRot = Input.Rotation;
+			EyeRotation = Input.Rotation;
 		}
 	}
 }

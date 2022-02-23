@@ -46,7 +46,7 @@ namespace WorldCraft
 			var deleteList = new List<Entity>();
 			deleteList.AddRange(ActiveTags.Keys);
 
-			foreach (var entity in Entity.All.OfType<EditorPawn>().OrderBy(x => Vector3.DistanceBetween(x.EyePos, CurrentView.Position ) ))
+			foreach (var entity in Entity.All.OfType<EditorPawn>().OrderBy(x => Vector3.DistanceBetween(x.EyePosition, CurrentView.Position ) ))
 			{
 				if (UpdateNameTag(entity))
 					deleteList.Remove(entity);
