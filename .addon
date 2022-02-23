@@ -1,14 +1,12 @@
 {
-  "SharedAssets": "*.*",
-  "Title": "Sbox Worldcraft",
+  "Title": "Worldcraft",
   "Type": "game",
-  "Org": "local",
-  "Ident": "sbox-worldcraft",
-  "FullIdent": "local.sbox-worldcraft",
+  "Org": "facepunch",
+  "Ident": "worldcraft",
   "Schema": 1,
-  "NeedsUpgrade": false,
   "HasAssets": true,
   "AssetsPath": "",
+  "ResourcePaths": null,
   "HasCode": true,
   "CodePath": "code",
   "RootNamespace": "WorldCraft"
